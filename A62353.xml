@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>School-play prepared for, and performed in a private grammar-school in Middlesex, anno 1663.</title>
+         </titleStmt>
+         <extent>Approx. 49KB of XML-encoded text transcribed from 28 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A62353</idno><idno type="EEBO-CITATION">8770268</idno>
+  <idno type="VID">41765</idno>
+  <idno type="EEBO-PROQUEST">2248509703</idno>
+  
+            <idno type="STC">Wing S886A</idno>
+            <idno type="STC">ESTC R25120</idno>
+            <idno type="OCLC">08770268</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. A62353)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 41765)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1268:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>School-play prepared for, and performed in a private grammar-school in Middlesex, anno 1663.</title>
+               </titleStmt>
+               <extent>[9], 42 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for S. Cripps,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1664.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Errata: p. 42.</note>
+                  <note>Reproduction of original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="topical_term">College and school drama, English --  England --  Middlesex.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-07 </date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-12 </date>
+            <label>Olivia Bottum </label>Sampled and proofread </change>
+         <change>
+            <date>2014-12 </date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="imprimatur">
+            <pb facs="tcp:41765:1"/>
+            <p>Imprimatur.</p>
+            <p>Feb. 25. 1663.</p>
+            <closer>
+               <signed>
+                  <hi>Tho. Grigg,</hi> R. P. Episc. Lond. Sac. Dom.</signed>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:41765:1"/>
+            <p>School-Play.</p>
+            <p>
+               <hi>Prepared</hi> for, and <hi>Performed</hi> in a Private GRAMMAR-SCHOOL In <hi>Middlesex. Anno</hi> 1663.</p>
+            <q>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</l>
+               <l>Omne tulit punctum qui miscuit <hi>utile dulci,</hi>
+               </l>
+               <l>Lectorem <hi>delectando,</hi> pariter{que} <hi>monendo.</hi>
+               </l>
+               <bibl>
+                  <hi>Hor. de Art. Poet.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>S. Cripps,</hi> and are to be sold at the first Shop in <hi>Popes<g ref="char:EOLhyphen"/>head</hi> Alley, next <hi>Lom<g ref="char:EOLhyphen"/>bard</hi>-street. 1664.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:41765:2"/>
+            <pb facs="tcp:41765:2"/>
+            <head>To the READER.</head>
+            <opener>
+               <salute>Reader.</salute>
+            </opener>
+            <p>
+               <hi>
+                  <seg rend="decorInit">I</seg>
+               </hi> Present thee here, <hi>in way of Sport,</hi> with the <hi>Anomaly</hi> of the chiefest Part of <hi>Gram<g ref="char:EOLhyphen"/>mar.</hi> The design is, <hi>Et pro<g ref="char:EOLhyphen"/>desse simul, et delectare.</hi> And therefore is the whole accommodated to that <hi>Book</hi> of <hi>most use,</hi> and <hi>best</hi> au<g ref="char:EOLhyphen"/>thority in <hi>England,</hi> viz.
+<pb facs="tcp:41765:3"/>
+               <hi>Grammat: Regia.</hi> If it be found we reach our end, we may happily, <hi>after a while,</hi> give thee something like this of <hi>Analogy:</hi> Mean time, begging thy Candour, I take leave, with,
+<q>
+                  <l>
+                     <note place="margin">
+                        <hi>Hor. Ep.</hi> 1. 6.</note>Vive, vale: siquid novisti rectius istis</l>
+                  <l>Candidus imperti: si non, his utere mecum.</l>
+               </q>
+            </p>
+         </div>
+         <div type="dramatis_personae">
+            <pb facs="tcp:41765:3"/>
+            <pb facs="tcp:41765:4"/>
+            <head>
+               <hi>Speakers. Prologue,</hi> in a Cloak.</head>
+            <p>
+               <table>
+                  <row>
+                     <cell>
+                        <list>
+                           <head>Judges.</head>
+                           <item>
+                              <hi>Priscian</hi>
+                           </item>
+                           <item>
+                              <hi>Lilie</hi>
+                           </item>
+                        </list>
+                        <p>With Square Caps, Serge<g ref="char:EOLhyphen"/>ants Coifs, and Gowns.</p>
+                     </cell>
+                     <cell>
+                        <list>
+                           <head>Generals.</head>
+                           <item>
+                              <hi>Poeta</hi>
+                           </item>
+                           <item>
+                              <hi>Amo</hi>
+                           </item>
+                        </list>
+                        <p>With Swords, Scarfs, and Plumes.</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <list>
+                           <head>
+                              <hi>Priscian</hi>'s Messengers.</head>
+                           <item>
+                              <hi>Volucer</hi>
+                           </item>
+                           <item>
+                              <hi>Celer</hi>
+                           </item>
+                           <item>
+                              <hi>Equester</hi>
+                           </item>
+                        </list>
+                        <p>With Swords.</p>
+                     </cell>
+                     <cell>
+                        <p>
+                           <hi>Fecialis,</hi> with a Heralds Coat.</p>
+                        <p>
+                           <hi>Praeco,</hi> his Man, with a white Wand.</p>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <list>
+                           <head>
+                              <hi>Lilie</hi>'s Messengers.</head>
+                           <item>
+                              <hi>Pudet</hi>
+                           </item>
+                           <item>
+                              <hi>Piget</hi>
+                           </item>
+                           <item>
+                              <hi>Tadet</hi>
+                           </item>
+                        </list>
+                        <p>with Swords.</p>
+                     </cell>
+                     <cell>
+                        <hi>A-Secretis,</hi> attending on the Judges at a Table, with Books, Paper, and Standish.</cell>
+                  </row>
+               </table>
+            </p>
+         </div>
+         <div type="prologue">
+            <pb facs="tcp:41765:4"/>
+            <sp>
+               <speaker>THE Prologue.</speaker>
+               <p>
+                  <seg rend="decorInit">B</seg>Y your <hi>leave</hi> Gen<g ref="char:EOLhyphen"/>tlemen, (for <hi>leave,</hi> they say, is <hi>light,</hi> &amp; can't cost much the <hi>buying</hi> then: but to <hi>leave that</hi>) Here's <hi>long-look'd-for</hi> come at last: And, I'le pawn mine ho<g ref="char:EOLhyphen"/>nour on't, when you know me better, you'l bid me welcome too. What? All this while no<g ref="char:EOLhyphen"/>thing but<note n="*" place="margin">Three Disputati<g ref="char:EOLhyphen"/>ons and two Ora<g ref="char:EOLhyphen"/>tions had pass'd in <hi>Latine</hi> be<g ref="char:EOLhyphen"/>fore this.</note>
+                  <hi>Pedlars-French</hi> to <hi>English Customers?</hi> Here's a noyse indeed of<note n="*" place="margin">Three Disputati<g ref="char:EOLhyphen"/>ons and two Ora<g ref="char:EOLhyphen"/>tions had pass'd in <hi>Latine</hi> be<g ref="char:EOLhyphen"/>fore this.</note>
+                  <hi>Latten Bels</hi> jangling <hi>backwards</hi> and <hi>for<g ref="char:EOLhyphen"/>wards,</hi> as if the <hi>School</hi> were
+<pb facs="tcp:41765:5"/> light-a-fire. For sure, me<g ref="char:EOLhyphen"/>thinks, ne're <hi>a fool</hi> of them all can think men <hi>of your wisdome</hi> so <hi>ignorantly</hi> superstitious, as to take delight <hi>i'th' Language of the Beast.</hi> No, no; for lay<g ref="char:EOLhyphen"/>ing by your <hi>Devotion,</hi> I doubt not but many of you are all as <hi>learned</hi> as my self; <hi>who love English to bring me to bed.</hi> And I'me resolv'd <hi>You</hi> shall <hi>ha't</hi> too, presently: for, now I think on't, these <hi>bedridden wits</hi> have lull'd you <hi>fast asleep</hi> by their <hi>barbarous Tones.</hi> Only, Sirs, I could wish you would <hi>rowse up</hi> a little, whilst I tell you my <hi>errand.</hi> Or, 'tis no great matter, let <hi>it go for a Dream:</hi> you shall ha't <hi>whil'st 'tis hot</hi> howsoever.</p>
+               <p>
+                  <hi>Gentlemen,</hi> I am no <hi>Hocus-Pocus</hi> of the New Edition, that trades in <hi>Pocket-picking</hi>
+                  <pb facs="tcp:41765:5"/> by the <hi>Legerde-main</hi> of waft<g ref="char:EOLhyphen"/>ing Infants to the <hi>Ʋniversity</hi> within the Compass of making an <hi>East-Indy</hi>-voyage; but <hi>in conclusion</hi> leaves them shorter of their Journies end <hi>(only their Eares a little longer)</hi> than <hi>at first setting out.</hi>
+               </p>
+               <p>Nor am I a <hi>Physitian-of-the-Mount,</hi> who, in hopes of play<g ref="char:EOLhyphen"/>ing with your purse-strings, will pretend to so absolute a cure of the <hi>Rickets,</hi> that your children shall be able to goe <hi>hilone,</hi> as far as <hi>Rome,</hi> or <hi>Athens</hi> either, without being behold<g ref="char:EOLhyphen"/>en to <hi>Priscian</hi> or <hi>Scotus</hi> for a hand to lead them, till at last you shall find, by their <hi>great head</hi> and <hi>little wit,</hi> the disease so confirm'd, 'tis almost incu<g ref="char:EOLhyphen"/>rable. No, <hi>Gentlemen,</hi> I'de ha' you to know, I was ne're so <hi>given to the world,</hi> as e're
+<pb facs="tcp:41765:6"/> to fancy these <hi>secular Orders.</hi> But to tell you the truth, <hi>I am</hi> —. Pray what doe you take me for? Indeed, <hi>I am one of the honest old Order of Re<g ref="char:EOLhyphen"/>gulars:</hi> And so <hi>my Master</hi> was afore me; and <hi>his Master too</hi> afore him; nay, and his <hi>Ma<g ref="char:EOLhyphen"/>sters Master too;</hi> and so <hi>one afore another,</hi> to the <hi>beginning</hi> of the Chapter of all true Learning. And (were I but a Prophet for your sakes) I'de warrant it so too, to the <hi>end</hi> of the same.</p>
+               <p>But hold: You ha' seen but <hi>one side</hi> of me yet, I'le turn you <hi>t'other</hi> also; and then, I trow, you'l think me a <hi>proper person,</hi> and as well made <hi>behind</hi> as <hi>be<g ref="char:EOLhyphen"/>fore.</hi> For I must tell you, <hi>Gen<g ref="char:EOLhyphen"/>tlemen</hi> (thanks my <hi>good Stars</hi> here) I am now become a <hi>Gentleman-Ʋsher</hi> (for <hi>Ʋshers,</hi>
+                  <pb facs="tcp:41765:6"/> you must note, are <hi>Gentlemen,</hi> be they never so <hi>course</hi> or <hi>curst</hi> men, according to <hi>Mag<g ref="char:EOLhyphen"/>na Charta</hi> of the <hi>Schooles</hi>) I say, a <hi>Gentleman-Ʋsher,</hi> to serve in a <hi>Ceremony</hi> of the <hi>Grammar-Wars,</hi> prepared pur<g ref="char:EOLhyphen"/>posely for you.</p>
+               <p>Yet, Sirs, 'tis not my <hi>part</hi> to make a <hi>Speech</hi> about the <hi>Parts of Speech.</hi> For shewing either the <hi>Occasion</hi> of the dif<g ref="char:EOLhyphen"/>ference, or the <hi>Mischiefs</hi> by it, or the <hi>Blessed composure</hi> of it: All this, with a little pa<g ref="char:EOLhyphen"/>tience, you shall <hi>by and by</hi> have, at the <hi>best hand.</hi> On<g ref="char:EOLhyphen"/>ly let me perswade you, should you chance to hear of <hi>Swords,</hi> and <hi>Guns,</hi> and <hi>Blood,</hi> not to be afraid; Do but sit still, I'le warrant it, you shall neither <hi>receive any hurt</hi> on your <hi>selves,</hi> nor see a <hi>stroak struck</hi> on <hi>any
+<pb facs="tcp:41765:7"/> Body else.</hi> And for your bet<g ref="char:EOLhyphen"/>ter assurance, I promise it, in the Conclusion, you will find as happy a <hi>cure</hi> of the whole, as the <hi>Case</hi> could possibly bear.</p>
+               <p>In a word, <hi>nought else but the Scarres will be remaining.</hi> Pray, <hi>Gentlemen, answer</hi> but your <hi>Names;</hi> for our strength lyes only in an <hi>Infantry,</hi> and they shall <hi>fall on</hi> immediate<g ref="char:EOLhyphen"/>ly.</p>
+               <stage>Exit Prol.</stage>
+            </sp>
+         </div>
+      </front>
+      <body>
+         <div type="play">
+            <pb n="1" facs="tcp:41765:7"/>
+            <head>School-Play.</head>
+            <div type="part">
+               <stage>
+                  <hi>Enter,</hi>
+                  <list>
+                     <item>
+                        <hi>Priscian,</hi> walking.</item>
+                     <item>
+                        <hi>Lilie,</hi> coming in.</item>
+                     <item>
+                        <hi>A-Secretis,</hi> at the Table.</item>
+                  </list>
+               </stage>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">S. </seg>1</label>
+                     <seg rend="decorInit">Y</seg>Our most hum<g ref="char:EOLhyphen"/>ble Servant, reverend <hi>Pri<g ref="char:EOLhyphen"/>scian.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>Most welcome my good friend <hi>Lilie.</hi> But what's the matter? Me-thinks I read perplexity in your very face. How stand affaires in <hi>Gram<g ref="char:EOLhyphen"/>mar-Province?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>Not over well, I
+<pb n="2" facs="tcp:41765:8"/> doubt. But being loath to trust uncertain <hi>Fame,</hi> I hast<g ref="char:EOLhyphen"/>ned hither in hopes of better satisfaction.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>There is a noise indeed, as if some quarrel had broak out betwixt my Lord <hi>Poeta,</hi> and Lord <hi>Amo.</hi> But sure me-thinks, they durst not make it more than <hi>perso<g ref="char:EOLhyphen"/>nal</hi> at the highest, without our privity, who by the <hi>Parlia<g ref="char:EOLhyphen"/>ment of Classique Authors</hi> are vested with Supreame Autho<g ref="char:EOLhyphen"/>rity, without appeale to any but themselves: Me-thinks, I say, they never durst with<g ref="char:EOLhyphen"/>out <hi>Ʋs,</hi> to assume the bold<g ref="char:EOLhyphen"/>nesse of disturbing publique peace.</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>Right Sir, so rea<g ref="char:EOLhyphen"/>son would suggest. But if <hi>Po<g ref="char:EOLhyphen"/>eta</hi> once be warm'd with Wine, you know, he cannot hold
+<pb n="3" facs="tcp:41765:8"/> whate're comes on't. He must at all adventures <hi>breath his Veine: Mars, Bacchus, Apol<g ref="char:EOLhyphen"/>lo—Wine</hi> put's <hi>War</hi> first, and <hi>Wit</hi> comes last.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>'Tis his true cha<g ref="char:EOLhyphen"/>racter in his Cups. And truly <hi>Amo</hi> being but blind at best, is then <hi>stark mad.</hi> At first glance you may read <hi>As in praesenti</hi> in his very face: and with a little patience heare him quickly at <hi>Verba haec sim<g ref="char:EOLhyphen"/>plicia:</hi> but for better dis<g ref="char:EOLhyphen"/>courses <hi>Haec raro aut nunquam</hi> will be the Conclusion. And what are we like to have next from such <hi>tempers,</hi> or <hi>distem<g ref="char:EOLhyphen"/>pers</hi> rather, but <hi>Verbum perso<g ref="char:EOLhyphen"/>nale cohaeret cum nominativo, nec numero, nec persona?</hi> Then, all's together by the eares.</p>
+                  <p>But I marvel that my <hi>Mes<g ref="char:EOLhyphen"/>sengers</hi> are not returned,
+<pb n="4" facs="tcp:41765:9"/> whom I dispatch'd for cer<g ref="char:EOLhyphen"/>taine information, upon first arrival of the rumor!</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>I also sent <hi>three,</hi> post, for exact intelligence, and ordered them to attend me here with their account. But who are those now en<g ref="char:EOLhyphen"/>tring?</p>
+               </sp>
+            </div>
+            <div type="part">
+               <stage>
+                  <label type="milestone">
+                     <seg type="milestoneunit">S. </seg>2</label>
+                  <hi>Enter, Volucer, Celer,</hi> and <hi>Equester.</hi>
+               </stage>
+               <sp>
+                  <speaker>[Pris.]</speaker>
+                  <p>My Messengers truly of whom I spake. Wel<g ref="char:EOLhyphen"/>come <hi>Volucer, Celer,</hi> and <hi>E<g ref="char:EOLhyphen"/>quester.</hi>
+                     <note place="margin">
+                        <hi>Priscian</hi> and <hi>Lilie</hi> sit down.</note> What news from <hi>Grammar-Land?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Vol.]</speaker>
+                  <p>Alas! Our fears are come upon us. The Com<g ref="char:EOLhyphen"/>mon-wealth of <hi>Grammar</hi> lyes gasping as for breath. <hi>Elo<g ref="char:EOLhyphen"/>quar an sileam.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <pb n="5" facs="tcp:41765:9"/>
+                  <speaker>[Lil.]</speaker>
+                  <p>Speak out the bu<g ref="char:EOLhyphen"/>sinesse clearly, <hi>Volucer.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Vol.]</speaker>
+                  <p>
+                     <hi>Poeta,</hi> and <hi>Amo</hi> falling out, sent mutual chal<g ref="char:EOLhyphen"/>lenges, and have engaged all the <hi>Nounes</hi> and <hi>Verbs</hi> on their respective parties. Nay, hardly any of the <hi>Parts of Speech</hi> but have <hi>taken Armes</hi> on the one or other side; except the <hi>Participles,</hi> who under a pretence of standing Neuter waites an advantage to ad<g ref="char:EOLhyphen"/>vance himself. The day ap<g ref="char:EOLhyphen"/>pointed, and the <hi>Armies</hi> mu<g ref="char:EOLhyphen"/>stred, with all things else pre<g ref="char:EOLhyphen"/>pared for encounter, they pitch the field in <hi>Gerund<g ref="char:EOLhyphen"/>shire;</hi> the rather for that they, and their neighbours <hi>Supines</hi> were fully yet on nei<g ref="char:EOLhyphen"/>ther side, and both parties ho<g ref="char:EOLhyphen"/>ped to draw them over. When they drew neat toge<g ref="char:EOLhyphen"/>ther,
+<pb n="6" facs="tcp:41765:10"/> they give the <hi>Word,</hi> put on the <hi>Signal,</hi> and sound <hi>Alarum</hi> to the Battle. Where they continue in a bloody fight, till dark night sounded a <hi>Retreate</hi> unto them.</p>
+               </sp>
+               <sp>
+                  <speaker>[Pris.]</speaker>
+                  <p>
+                     <hi>O madnesse never paralel'd!</hi> And hath there been a <hi>Battle!</hi> And that by <hi>Brethren!</hi> And even to <hi>Blood!</hi> What will not proud Ambi<g ref="char:EOLhyphen"/>tion <hi>thrust poor mortals on?</hi>
+                  </p>
+                  <p>But <hi>Volucer,</hi> let us heare what mischiefe hath been done.</p>
+               </sp>
+               <sp>
+                  <speaker>[Vol.]</speaker>
+                  <p>
+                     <hi>Horresco referens.</hi> I tremble at remembrance of the sounds of <hi>Trumpets,</hi> beats of <hi>Drums,</hi> ratlings of <hi>Armour,</hi> neighings of <hi>Horses,</hi> roaring of <hi>Guns,</hi> and shouts of the <hi>Combatants.</hi> Ah! the loud <hi>cryes,</hi> the shrill <hi>shreekes,</hi> the sad <hi>groanes,</hi> of <hi>wounded,
+<pb n="7" facs="tcp:41765:10"/> bleeding, dying,</hi> men! enough to make the Heavens to <hi>star<g ref="char:EOLhyphen"/>tle,</hi> and the Earth to <hi>trem<g ref="char:EOLhyphen"/>ble.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>But be particular, and dispatch, that the time<g ref="char:EOLhyphen"/>lyest remedy may be applied to such a dangerous malady.</p>
+               </sp>
+               <sp>
+                  <speaker>[Vol.]</speaker>
+                  <p>I do it Sir, The charge being Sounded, the <hi>Armies</hi> both fall on, and come up to <hi>pusha-pike</hi> before they spend their fire. So that it quickly came to a <hi>close Battle;</hi> and the <hi>Swords points</hi> turned off the <hi>Guns</hi> as uselesse any further. <hi>Sad</hi> spectacles there quickly were on every side; but far <hi>most lamentable</hi> among the <hi>Heteroclite Nounes,</hi> and <hi>Anomal Verbs,</hi> who truly bare the burden of the day.</p>
+                  <p>Among the valiant <hi>Nounes</hi> (for of them alone we took
+<pb n="8" facs="tcp:41765:11"/> exacter notice) some in that bloody Battle lost their <hi>Cases,</hi> some their <hi>Numbers,</hi> and some (poor soules!) were strangly M<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>tamorphos'd, and had their very <hi>Genders</hi> changed. Though it must be acknowledged, that some amongst those gallant <hi>Worthies</hi> came off untouched, not without badges of everla<g ref="char:EOLhyphen"/>sting honour on them.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>Proceed good <hi>Vo<g ref="char:EOLhyphen"/>lucer,</hi> as swiftly as tho canst conveniently.</p>
+               </sp>
+               <sp>
+                  <speaker>[Vol.]</speaker>
+                  <p>The Brigade of <hi>He<g ref="char:EOLhyphen"/>teroclites</hi> consisted of four <hi>Re<g ref="char:EOLhyphen"/>giments.</hi> The first <hi>Defective in Case,</hi> the second <hi>Defective in Number,</hi> the third the <hi>Variant,</hi> and the last the <hi>Re<g ref="char:EOLhyphen"/>dundant Regiment.</hi> All these were bravely <hi>mounted,</hi> and compleatly <hi>armed,</hi> Cap-a-pe, with Pistols, Swords, and back-and-breasts,
+<pb n="9" facs="tcp:41765:11"/> their <hi>Number, Case,</hi> and <hi>Gender.</hi>
+                     <note place="margin">
+                        <hi>(1.)</hi> Defect. in Case.</note> The <hi>Case Defective Regiment</hi> had the <hi>Vanguard:</hi>
+                     <note place="margin">1. <hi>Aptotes.</hi>
+                     </note> Whose eldest <hi>Troop</hi> of <hi>Aptotes</hi> storming on foot the enemies trenches, were so galled with <hi>Chain-shot</hi> from a <hi>Flanker,</hi> that their limbs being torne asunder, there was no<g ref="char:EOLhyphen"/>thing left them but the very <hi>trunk.</hi> A <hi>sad condition!</hi> and so much the worse, because there is no hope of ever changing it into any <hi>better</hi> or <hi>other Case</hi> at all. For these are they,
+<q>Quae nullum variant casum, ut fas, nil, nihil, instar.</q> The <hi>Monoptotes</hi> were the next,<note place="margin">2. <hi>Monoptotes</hi>
+                     </note> who in the heat of Battle fell unawares within the reach of the enemies Cannon; and of all their <hi>six,</hi> had but one <hi>Leg</hi> on<g ref="char:EOLhyphen"/>ly left them <hi>to hop away</hi> with<g ref="char:EOLhyphen"/>all.
+<pb n="10" facs="tcp:41765:12"/> Once it was better with him, but now (poor wretch!) he is — <hi>Nomen cui vox ca<g ref="char:EOLhyphen"/>dit una.</hi> One of them, <hi>Infici<g ref="char:EOLhyphen"/>as</hi> by name, will not deny, it went so hard with him that he could never have stood in Speech more, had not an Ene<g ref="char:EOLhyphen"/>my, whose heart was moved with pitty, the <hi>Verb Eo,</hi> both lifted him up, and led him al<g ref="char:EOLhyphen"/>so.</p>
+                  <p>
+                     <note place="margin">3. <hi>Diptotes.</hi>
+                     </note>The third Troop was <hi>Dip<g ref="char:EOLhyphen"/>topes,</hi> who in a hot pursuit fell on an ambush, and so un<g ref="char:EOLhyphen"/>happily lost four <hi>Cases</hi> in the skirmish. Since that they are such— <hi>Quibus duplex flexu<g ref="char:EOLhyphen"/>ra remansit.</hi> But four des<g ref="char:EOLhyphen"/>perate fellows of them, called, <hi>Verberis, at{que} vicem, sic plus, cum jugere,</hi>—resolving <hi>to lose</hi> their <hi>lives,</hi> or <hi>reveng</hi> their <hi>losse,</hi> fell furiously on the E<g ref="char:EOLhyphen"/>nemy,
+<pb n="11" facs="tcp:41765:12"/> and recovered all their <hi>Plurals,</hi> which had been taken prisoners. Thus—<hi>Cunctos Quatuor haec numero casus te<g ref="char:EOLhyphen"/>nuêre secundo.</hi>
+                  </p>
+                  <p>The <hi>Triptotes</hi> were the fourth Troop,<note place="margin">4. <hi>Triptotes.</hi>
+                     </note> who had been utterly lost both <hi>Horse</hi> and <hi>Man</hi> by a party of Firelocks that had secretly lined the hedges, but that with despe<g ref="char:EOLhyphen"/>rate resolution they charged through the Enemies body, and lost <hi>three Cases</hi> in that brave attempt: Amongst whom are all those gallant fellows
+<q>Tres quibus inflectis casus—</q>
+                     <hi>Precis</hi> was taken prisoner, but begging quarter, he scaped with <hi>Precem</hi> and <hi>Prece.</hi> He prayed heartily too for <hi>Preci,</hi> and was allowed it to plea<g ref="char:EOLhyphen"/>sure <hi>Terence;</hi> yet so as that
+<pb n="12" facs="tcp:41765:13"/> for ever after let, him beg ne<g ref="char:EOLhyphen"/>ver so heartily,<note place="margin">Phorm. A. 3. Sc. 3.</note>
+                     <hi>Nullus locus re<g ref="char:EOLhyphen"/>linquatur Preci.</hi>
+                  </p>
+                  <p>
+                     <hi>Vis</hi> was amongst them, and when he could not clear him<g ref="char:EOLhyphen"/>self by <hi>force,</hi> he tryes by <hi>faire meanes;</hi> and so gives his <hi>Dative</hi> case to save the rest: Whence,
+<q>Integra vox vis est, nisi desit forte Dativus.</q>
+                  </p>
+                  <p>The <hi>Tretaptotes</hi> being scarce a <hi>Squadron</hi> march under the <hi>Pentaptotes</hi> Colours. Now
+<q>Quinto haec saepe carent casu</q> —and upon this occasion. Being stout men, and a full Troop, they often dared the Enemy to his very face, and sent their <hi>Trumpet</hi> to call them out to fight. Who on a time sounding a Call too bold<g ref="char:EOLhyphen"/>ly at the Enemies <hi>very nose,</hi> was catch'd, and the <hi>Pentap<g ref="char:EOLhyphen"/>totes</hi> are like to be no more
+<pb n="13" facs="tcp:41765:13"/>
+                     <hi>for ever</hi> in a Vocative Case.</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>A Gallant <hi>Regi<g ref="char:EOLhyphen"/>ment</hi> torne in pieces! But tell us <hi>Volucer,</hi> how it fared with the <hi>Defectives in Number?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Vol.]</speaker>
+                  <p>My Brother <hi>Celer</hi> can thereof informe you bet<g ref="char:EOLhyphen"/>ter than <hi>my self:</hi> because he undertook <hi>that</hi> charge as I did <hi>this.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>Speak fully <hi>Celer,</hi> for thou canst not be too tedi<g ref="char:EOLhyphen"/>ous; how went the case with <hi>Number-Defectives?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Cel.]</speaker>
+                  <p>But little better,<note place="margin">
+                        <hi>2.</hi> Defect. in Number. <hi>1.</hi> Plural.</note> truly Sirs, than with their Bre<g ref="char:EOLhyphen"/>thren. For being command<g ref="char:EOLhyphen"/>ed to keep a passe, where <hi>Poeta</hi> feared lest the Enemy should have fallen upon his rear, they stoutly made good their ground a great while, till being over-power'd, they lost in their retreat, some
+<pb n="14" facs="tcp:41765:14"/> their <hi>Singular,</hi> and some their <hi>Plural</hi> Number. Of the first sort were, first, <hi>Poeta's Life-Guard,</hi> very proper persons, viz. all <hi>Proper-Names,</hi>
+                     <note place="margin">
+                        <hi>1.</hi> Proper Names.</note> whose sad misfortune 'twas,
+<q>Plurima ne fuerint ut Mars, Cato, Gallia, Roma.</q>
+                  </p>
+                  <p>In which mischance the <hi>Suttlers</hi> were also Plundred.</p>
+                  <q>Qui frumenta dabant, pensa, herbas, uda, metalla.</q>
+                  <p>
+                     <note place="margin">2. <hi>Masculines.</hi>
+                     </note>Next were those <hi>Masculine</hi> Spirits, that but over-night had been led up to the Ene<g ref="char:EOLhyphen"/>mies trenches by
+<q>Hesperus &amp; Vesper—</q>
+                  </p>
+                  <p>
+                     <note place="margin">3. <hi>Feminines.</hi>
+                     </note>After them those brave <hi>A<g ref="char:EOLhyphen"/>mazons</hi> under the Conduct of <hi>Pubes at{que} Salus</hi>—were made <hi>Widdows,</hi> and forced to live a <hi>Single</hi> life, <hi>full sore a<g ref="char:EOLhyphen"/>gainst their wills.</hi> Except
+<q>Res, species, facies, acieqs;—</q>
+                     <pb n="15" facs="tcp:41765:14"/> who were suffer'd to escape <hi>meerly to preserve the breed.</hi>
+                  </p>
+                  <p>In the last place,<note place="margin">4 <hi>Neuters.</hi>
+                     </note> the mun<g ref="char:EOLhyphen"/>grel <hi>Neuters</hi> that follow'd <hi>De<g ref="char:EOLhyphen"/>licium</hi> till they came to <hi>Seni<g ref="char:EOLhyphen"/>um,</hi> did there meet with <hi>Le<g ref="char:EOLhyphen"/>thum</hi> to their <hi>Plurals.</hi> But
+<q>Hordea, farra, forum —</q> as also, most of the <hi>Fifth De<g ref="char:EOLhyphen"/>clension</hi> (though of another kind) fell in among the <hi>Trip<g ref="char:EOLhyphen"/>totes,</hi> and thereby saved three <hi>Plural Cases.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>But <hi>Celer,</hi> who were those that lost their <hi>Singular Number?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Cel.]</speaker>
+                  <p>
+                     <hi>Manes</hi> and <hi>Lemures,</hi>
+                     <note place="margin">2. <hi>Singular.</hi>
+                     </note> with their Company,<note place="margin">1. <hi>Masculines.</hi>
+                     </note> thought by <hi>haunting</hi> the Enemies Tents in the dark, to have <hi>frighted</hi> them from thence. But they couragiously soon tam'd those <hi>Bulbeggars,</hi> and took them pri<g ref="char:EOLhyphen"/>soners: I, and they keep them
+<pb n="16" facs="tcp:41765:15"/> still so close, that they can ne<g ref="char:EOLhyphen"/>ver stir abroad <hi>alone,</hi> or <hi>single,</hi> since.</p>
+                  <p>
+                     <note place="margin">2. <hi>Feminines.</hi>
+                     </note>
+                     <hi>Exuviae</hi> and <hi>Phalerae</hi> — that pretended to be <hi>Nuns,</hi> &amp; led the <hi>Maiden-Troop,</hi> were spoyled of their <hi>Monastique l<gap reason="illegible" resp="#keyers" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>fe</hi> (with as ill a will as Vir<g ref="char:EOLhyphen"/>gins use to marry) and are <hi>Plu<g ref="char:EOLhyphen"/>rals</hi> now for ever.</p>
+                  <p>
+                     <note place="margin">3. <hi>Neuters.</hi>
+                     </note>
+                     <hi>Moenia cum tesquis</hi>—with all their retinue were celebra<g ref="char:EOLhyphen"/>ting <hi>Festa Deum</hi> — very merrily: and on a sudden the Enemy surprised all their <hi>Sin<g ref="char:EOLhyphen"/>gulars.</hi> But they, being <hi>Plu<g ref="char:EOLhyphen"/>rals,</hi> cryed out <hi>the more the merrier,</hi> and invited company to them with,
+<q>Quod si plura legas, licet hac quo{que} classe reponas.</q> These, Sirs, are principal in that sad disaster.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>A sad disaster truly.
+<pb n="17" facs="tcp:41765:15"/> But 'twas said that some had changed their Gender. What strange accident hath befallen the <hi>Variant Regiment?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Cel.]</speaker>
+                  <p>Thus, Sir,<note place="margin">3. <hi>Variant.</hi>
+                     </note>
+                     <hi>Rubus</hi> and <hi>Oleaster</hi> being <hi>Appellativa Ar<g ref="char:EOLhyphen"/>borum</hi> — and therefore <hi>Fe<g ref="char:EOLhyphen"/>males,</hi>
+                     <note place="margin">1. <hi>Feminines.</hi>
+                     </note> did quit themselves so <hi>manfully</hi> in the Fight, that they were suddenly metamor<g ref="char:EOLhyphen"/>phosed into <hi>Males.</hi> Although most wise men say of <hi>Rubus,</hi> that <hi>'tis doubtful still.</hi>
+                  </p>
+                  <p>On the other hand,<note place="margin">
+                        <hi>2.</hi> Mas. Sing. Neut. Plur.</note> some <hi>Males</hi> behav'd themselves so much below the spirit of <hi>wo<g ref="char:EOLhyphen"/>men</hi> in the Battel, that the Enemy having taken them, made them <hi>Eunuchs</hi> in the <hi>Plu<g ref="char:EOLhyphen"/>ral;</hi> that is, <hi>nor Males, nor Fe<g ref="char:EOLhyphen"/>males, but chast Neuters.</hi> As
+<q>Moenalus at{que} sacer mons Dindimus, Ismarus,<note place="margin">
+                           <hi>3.</hi> Masc. Sing. Masc. Neut. Plur.</note>
+                     </q> And the rest. Though some of
+<pb n="18" facs="tcp:41765:16"/> the same Company (as very Cowards as the other) for the Trick they had of <hi>making Sport.</hi> As,
+<q>Sibi<gap reason="illegible" resp="#keyers" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>us, at{que} Jocus —</q> With two or three more, were allowed to wear a <hi>Fools Cap,</hi> and so they pass for <hi>Males,</hi> and <hi>Neuters</hi> too.</p>
+                  <p>
+                     <note place="margin">
+                        <hi>4.</hi> F<gap reason="illegible" resp="#keyers" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>m. Sing. Neut. Plur.</note>Besides these, there were two other, <hi>Singular Females, Pergamus</hi> and <hi>Supellex,</hi> who now being made sufficiently sensible of Warrs calamities, resolved, if ever 'twere their hap to be <hi>Plural</hi> more, who<g ref="char:EOLhyphen"/>ever engaged, they would be <hi>Neuters.</hi>
+                  </p>
+                  <p>
+                     <note place="margin">
+                        <hi>5.</hi> Neut. Sing. Masc. Plur.</note>But some <hi>Singular Neuters</hi> (as they are wont to do) prov'd the veryest changlings of all the Pack, for, <hi>Argos item &amp; Caelum</hi>—turned only <hi>Mas<g ref="char:EOLhyphen"/>culines</hi> in the <hi>Plural,</hi>
+                     <q>
+                        <pb n="19" facs="tcp:41765:16"/>Nundinum, &amp; hinc Epulum,<note place="margin">Fem. Plur.</note> quibus addito Balneum—</q>
+                     <hi>Feminines.</hi>
+                     <note place="margin">Masc. <hi>and</hi> Neut. Plur.</note>
+                     <hi>Rostrum cum frae<g ref="char:EOLhyphen"/>no, filum, simul at{que} capistrum, Masculines</hi> and <hi>Neuters.</hi>
+                  </p>
+                  <p>So that, me-thinks, he that shall write their Story, may well begin as <hi>Ovid</hi> doth his <hi>Metamorphosis,</hi>
+                     <q>In nova fert animus mutatas dicere formas — Corpora</q>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>Truth, <hi>Celer,</hi> the Newes is strange; but all this while how faired the <hi>Redun<g ref="char:EOLhyphen"/>dant Regiment?</hi>
+                     <note place="margin">4. <hi>Redundant.</hi>
+                     </note> For some-bo<g ref="char:EOLhyphen"/>dy, I take it, told us they <hi>saved</hi> themselves, and <hi>gat</hi> besides.</p>
+               </sp>
+               <sp>
+                  <speaker>[Equest.]</speaker>
+                  <p>I was the person, Sir, that saw it with mine eyes, amongst both <hi>Officers</hi> and <hi>Com<g ref="char:EOLhyphen"/>mon Souldiers</hi> also. To whom the <hi>General,</hi> for their worthy services, either gave honoura<g ref="char:EOLhyphen"/>ble <hi>Titles,</hi> or granted ample
+<pb n="20" facs="tcp:41765:17"/>
+                     <hi>Priviledges,</hi> according to their several merits.</p>
+                  <p>
+                     <note place="margin">1. <hi>Substan<g ref="char:EOLhyphen"/>tives.</hi>
+                     </note>Of the <hi>Officers</hi> that had <hi>Ti<g ref="char:EOLhyphen"/>tles</hi> given; some had bare <hi>Ti<g ref="char:EOLhyphen"/>tles:</hi> As,
+<q>Gibbus &amp; hic Gibber, Cu<gap reason="illegible" resp="#keyers" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>u<g ref="char:EOLhyphen"/>mis Cucumer, Stipis &amp; Stips.</q> Others had <hi>Gender</hi> also with their <hi>Titles.</hi>
+                  </p>
+                  <q>Nam genus &amp; vocem variant tonitrus tonitru{que}</q>
+                  <p>Then for the <hi>Priviledges:</hi> Unto some was granted <hi>a right for the Females of their Body to inherit as amply, unto all in<g ref="char:EOLhyphen"/>tents and purposes whatsoever, as Heir-Males.</hi>
+                  </p>
+                  <q>Nam Panther Panthera cre<g ref="char:EOLhyphen"/>at, Cratera{que} Crater.</q>
+                  <p>To <hi>others,</hi> that by a <hi>Laural</hi> they should be created free of an <hi>higher Company</hi> than their own.</p>
+                  <p>
+                     <hi>Laurus enim Lauri facit &amp; Laurus Genitivo.</hi>
+                  </p>
+                  <pb n="21" facs="tcp:41765:17"/>
+                  <p>These were all <hi>substantial Officers;</hi> not one of them, but <hi>standing by himself</hi> durst look the Enemy in the face.</p>
+                  <p>Then for the <hi>Common-Soul<g ref="char:EOLhyphen"/>diers,</hi>
+                     <note place="margin">2. <hi>Adjective<gap reason="illegible" resp="#keyers" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>.</hi>
+                     </note> though they were never able to <hi>stand their Ground a<g ref="char:EOLhyphen"/>lone,</hi> yet for their faithfulness many of them were allowed <hi>Titles;</hi> such especially as pro<g ref="char:EOLhyphen"/>duced Certificates of retaining to those valiant <hi>Leaders,</hi>
+                     <q>
+                        <l>Arma, jugum, nervus, som<g ref="char:EOLhyphen"/>nus, olivus{que} animus{que}</l>
+                        <l>Et quot Limus habet, quot fraenum, &amp; cera, bacillum.</l>
+                     </q>
+                  </p>
+                  <p>Thus, Sirs, you have the best account that we can give of this whole Affair. As for my Lord <hi>Amo</hi>'s Party, we had no opportunity of being conver<g ref="char:EOLhyphen"/>sant there.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>You have done your <hi>Duty</hi> to our great con<g ref="char:EOLhyphen"/>tent;
+<pb n="22" facs="tcp:41765:18"/> and that you may not lose your <hi>labour</hi> in our service, You <hi>Volucer</hi> first, as the Elder Brother, have the honour to be called also at your own dis<g ref="char:EOLhyphen"/>cretion <hi>Volucris.</hi> And for <hi>E<g ref="char:EOLhyphen"/>quester,</hi> let him be advanced to the Order called <hi>Equestris.</hi> But <hi>Lilie,</hi> your Opinion now concerning <hi>Celer.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>I judge <hi>themselves</hi> not only, but for <hi>their sake,</hi> the <hi>whole Society,</hi> worthy of an equal share; and that they may hereafter (with your fa<g ref="char:EOLhyphen"/>vour) after this example, write,
+<q>
+                        <l>Hic Celer, haec Celeris, neutro</l>
+                        <l>hoc Celere: aut alitur sic;</l>
+                        <l>Hic at{que} haec Celeris, rursum</l>
+                        <l>hoc Celere est tibi neutrum.</l>
+                     </q>
+                  </p>
+                  <p>But if you please, Sir, let them now withdraw, and we'l consult what's further to be done.</p>
+               </sp>
+               <sp>
+                  <pb n="23" facs="tcp:41765:18"/>
+                  <speaker>[Prisc.]</speaker>
+                  <p>Content. Retire, Sirs, and refresh your selves a while. But who are those, good <hi>Lilie,</hi> coming yonder?</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>My Messengers truly, most opportunely now return<g ref="char:EOLhyphen"/>ed. Welcome all <hi>three:</hi> Come without <hi>Circumstance,</hi> or any further <hi>Ceremony,</hi> relate your knowledge of this unhappy quarrel.</p>
+               </sp>
+            </div>
+            <div type="part">
+               <stage>
+                  <label type="milestone">
+                     <seg type="milestoneunit">S. </seg>3</label> Enter, <hi>Pudet, Piget,</hi> and <hi>Taedet.</hi>
+               </stage>
+               <sp>
+                  <speaker>[Pudet]</speaker>
+                  <p>I am <hi>ashamed,</hi> noble Sirs, of the blemish brought upon <hi>themselves,</hi> and damage to the <hi>Common-wealth,</hi> by the mad ambition of our Generals <hi>Amo,</hi> and <hi>Poeta.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Piget]</speaker>
+                  <p>And as for me, <hi>Illo<g ref="char:EOLhyphen"/>rum sane pudet me, piget{que}.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <pb n="24" facs="tcp:41765:19"/>
+                  <speaker>[Taedet]</speaker>
+                  <p>Nor, <hi>for my part,</hi> up<g ref="char:EOLhyphen"/>on the thoughts hereof, can I forbear to say, <hi>Me vitae taedet meae.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>Well spoken all. But to the business, <hi>Pudet.</hi> And observe, I prethee, 'tis of the event on <hi>Amo</hi>'s side we only make enquiry.</p>
+               </sp>
+               <sp>
+                  <speaker>[Pud.]</speaker>
+                  <p>I understand, Sir, and shall apply my self accor<g ref="char:EOLhyphen"/>dingly to give you speedy sa<g ref="char:EOLhyphen"/>tisfaction.</p>
+                  <p>When <hi>Amo</hi> had drawn up his Forces in this Order; name<g ref="char:EOLhyphen"/>ly the <hi>Defectives</hi> in the <hi>Van,</hi> the <hi>Redundants</hi> for <hi>reserve,</hi> the <hi>Regulars</hi> in the <hi>Main Battle,</hi> and the <hi>Particles</hi> on both Wings: he gave encourage<g ref="char:EOLhyphen"/>ment of <hi>Pickeering,</hi> to <hi>Duce, Fe<g ref="char:EOLhyphen"/>re,</hi> and <hi>Face;</hi> mettal'd Spi<g ref="char:EOLhyphen"/>rits, and fit for action; who were content to admit <hi>Dice</hi>
+                     <pb n="25" facs="tcp:41765:19"/> into their Company, meerly for his <hi>Tongues sake;</hi> not know<g ref="char:EOLhyphen"/>ing what occasion they might possibly have for an <hi>Orator.</hi> These arm'd, and mounted bravely, with full cariere made towards the Enemies <hi>Body;</hi> but on a sudden they perceive a numerous Party of them in their own <hi>Rear.</hi> Here now necessity made even <hi>Dice</hi> de<g ref="char:EOLhyphen"/>sperate. They fought with Gallantry, till, their Horses be<g ref="char:EOLhyphen"/>ing shot, they must needs cry <hi>Quarter,</hi> and <hi>Dice</hi>'s <hi>Rhetorick</hi> redeem'd both <hi>life</hi> and <hi>liberty</hi> too; <hi>though upon courser terms indeed.</hi> For <hi>Poeta,</hi> hearing of it, adjudged them to be sent away with their <hi>Breeches pa<g ref="char:EOLhyphen"/>red,</hi> and this inscription pin'd thereon.<note place="margin">Dic, Duc, Fer, Fac, per Apoco<g ref="char:EOLhyphen"/>pen castran<g ref="char:EOLhyphen"/>tur.</note>
+                  </p>
+                  <p>
+                     <hi>Go honest Dic, &amp; pretty Duc, Fer, Fac, &amp; you have had ill luck.</hi>
+                     <pb n="26" facs="tcp:41765:20"/> Which disgrace (though for meer spight, and no demerit of theirs put upon them) 'tis ve<g ref="char:EOLhyphen"/>rily thought, however <hi>Latine-Botchers</hi> may try to <hi>piece</hi> them, they can ne're <hi>outgrow.</hi>
+                  </p>
+                  <p>
+                     <note place="margin">
+                        <hi>1.</hi> Verbs de<g ref="char:EOLhyphen"/>fect.</note>Now the <hi>Forlorne</hi> advance, being all drawn out of the <hi>De<g ref="char:EOLhyphen"/>fectives Division,</hi>
+                     <note place="margin">1. More ge<g ref="char:EOLhyphen"/>nerally.</note> and com<g ref="char:EOLhyphen"/>manded by a daring Captain called <hi>Aio</hi> (though I have heard he is more a man of <hi>words</hi> than <hi>deeds</hi>) and a bold fellow, <hi>Ausim,</hi> his Lieutenant. These were about to charge the Enemy up a Hill: and when <hi>Quaeso</hi> did but <hi>pray</hi> them, to be well advised what they did; <hi>Novi</hi> tells them they <hi>knew</hi> it well enough already. Nay, quoth <hi>Faxo,</hi> I'le <hi>do it</hi> whatso<g ref="char:EOLhyphen"/>e're comes on't. And <hi>Odi</hi> in a rage cryes out, I hate <hi>demur<g ref="char:EOLhyphen"/>rers,</hi> put by Cowards. <hi>Begin,</hi>
+                     <pb n="27" facs="tcp:41765:20"/> saith <hi>Coepi</hi> then. If so, quoth <hi>Vale,</hi> then <hi>Farewel</hi> success, or safety. Too true a Prophesie truly: For <hi>they,</hi> and their <hi>fel<g ref="char:EOLhyphen"/>lowes</hi> are quickly routed, and all of them stript of almost all they have to their very shirts. Scarce <hi>Mood</hi> or <hi>Tense,</hi> or <hi>Num<g ref="char:EOLhyphen"/>ber,</hi> or <hi>Person</hi> left them: What<g ref="char:EOLhyphen"/>e're it was, 'twas all in Raggs. I'me sure I saw poor <hi>Infit,</hi> and <hi>Cedo,</hi> as naked as ever they were born; <hi>nothing left them but the bare skin.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>Objects of greatest pity truly! But of the rest that had the <hi>Van,</hi> you <hi>Piget,</hi> tell us what became of them.</p>
+               </sp>
+               <sp>
+                  <speaker>[Piget.]</speaker>
+                  <p>That brave <hi>Divisi<g ref="char:EOLhyphen"/>on</hi> having the hottest service, sustained the <hi>greatest,</hi> if not the <hi>only</hi> losse. A doleful spe<g ref="char:EOLhyphen"/>ctacle 'twas to see, whole <hi>fields,</hi> besides the <hi>high-wayes,</hi>
+                     <pb n="28" facs="tcp:41765:21"/> all strawed with <hi>Limbs,</hi> and dyed with <hi>blood.</hi> Here in a fearful <hi>manner</hi> lay a <hi>Mood;</hi> there, in this bloody <hi>time,</hi> a <hi>Tense</hi> was sprawling. On one hand a <hi>Supine</hi> lying flat upon his back; and on the other a <hi>Passive v<gap reason="illegible" resp="#keyers" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>yce</hi> by bitter <hi>suffer<g ref="char:EOLhyphen"/>ings</hi> made quite <hi>speechlesse.</hi>
+                  </p>
+                  <q>— Quis talia fando Temperet a lachrymis? —</q>
+               </sp>
+               <sp>
+                  <speaker>[Pris.]</speaker>
+                  <p>But <hi>Piget,</hi> canst thou tell me what men of note there lost their <hi>Moods?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Pig.]</speaker>
+                  <p>
+                     <note place="margin">2. More spe<g ref="char:EOLhyphen"/>cially.</note>Yes Sir, for (besides the <hi>Forlorne</hi> now spoken of, who in that <hi>bad Mood,</hi>
+                     <note place="margin">1. In <hi>Mood.</hi>
+                     </note> lost all their <hi>good ones) Possum</hi> that <hi>Puissant</hi> Captain, <hi>Volo</hi> a <hi>resol<g ref="char:EOLhyphen"/>v'd</hi> Commander, and the va<g ref="char:EOLhyphen"/>liant Officer <hi>Malo,</hi> who would <hi>rather lose his life, than honour:</hi> These three in that encounter, besides the brui<g ref="char:EOLhyphen"/>ses
+<pb n="29" facs="tcp:41765:21"/> that have made them ma<g ref="char:EOLhyphen"/>ny wayes <hi>irregular,</hi> are for ever made uncapable of <hi>com<g ref="char:EOLhyphen"/>manding</hi> more, having utterly lost their <hi>Imperative Mood.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>Great pity truly. But who were losers in their <hi>Tenses?</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Pig.]</speaker>
+                  <p>A worthy <hi>Regiment,</hi>
+                     <note place="margin">2. In <hi>Tense.</hi>
+                     </note> whose List I read, and well remember thus it did begin. <hi>Praeteritum fugiunt vergo, am<g ref="char:EOLhyphen"/>bigo, glisco, fatisco.</hi> Yea, and all <hi>Passives, Commons,</hi> and <hi>Deponents,</hi> are glad to <hi>hobble</hi> with a <hi>wooden</hi> leg, borrowed of the <hi>Participle</hi> of the <hi>Preter-Tense,</hi> and the Verb <hi>Sum.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>And who their <hi>Su<g ref="char:EOLhyphen"/>pines?</hi>
+                     <note place="margin">3. In <hi>Supines.</hi>
+                     </note>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Pig.]</speaker>
+                  <p>Almost a whole <hi>Bri<g ref="char:EOLhyphen"/>gade</hi> lost their <hi>Supines</hi> care<g ref="char:EOLhyphen"/>lesly: By running openly on the Cannons mouth, under
+<pb n="30" facs="tcp:41765:22"/> mad hopes of surprizing the <hi>Artillery.</hi> As
+<q>Lambo, mico micui, rudo, scabo, —</q>
+                     <hi>Parco peperci</hi> would fain have been spared, but 'twould not do at first. Since,<note n="*" place="margin">Lib. 35. c. 4.</note>
+                     <hi>Plinius,</hi> and <hi>Livius</hi> have made it full a<g ref="char:EOLhyphen"/>mends with<note n="†" place="margin">Ap. Vol. <hi>de An.</hi> l. 3.</note>
+                     <hi>Parcitum est</hi> and <hi>Parsurus</hi> too.</p>
+               </sp>
+               <sp>
+                  <speaker>[Pris.]</speaker>
+                  <p>Well, and you said the <hi>Passive</hi> voyce was lost by some.</p>
+               </sp>
+               <sp>
+                  <speaker>[Pig.]</speaker>
+                  <p>
+                     <note place="margin">4. In <hi>Voyce.</hi>
+                     </note>Yes all the <hi>Neuters</hi> at one clap; except some <hi>six;</hi> who, in <hi>rei memoriam,</hi> desi<g ref="char:EOLhyphen"/>red the enemy to return the <hi>Passive Preter-Tense,</hi> that had been taken Prisoner, and take his <hi>Active</hi> in exchange: And 'twas agreed to pleasure him with a <hi>shilling</hi> for his <hi>twelve pence.</hi> So now they <hi>have</hi> it, and a <hi>nick-name</hi> to boot, <hi>Neuter-Passives.</hi>
+                     <pb n="31" facs="tcp:41765:22"/> Besides these, that <hi>active</hi> spirit <hi>Facio,</hi> could but save it for his <hi>children; him<g ref="char:EOLhyphen"/>self,</hi> as to a <hi>Passive</hi> voyce, must be content with <hi>hoarsnesse</hi> all his dayes.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>Can any of you give us any further account?</p>
+               </sp>
+               <sp>
+                  <speaker>[Taedet.]</speaker>
+                  <p>My charge lyes specially Sir, among the <hi>Re<g ref="char:EOLhyphen"/>dundants,</hi> yet I could not but observe in the <hi>Defectives</hi> dis<g ref="char:EOLhyphen"/>orderly retreat, that basenesse which it irketh me to report. How many <hi>Inceptives</hi> begun to treat their <hi>friends</hi> as <hi>foes;</hi> and having lost their <hi>own Preter-Tenses,</hi> plunder their <hi>Fellows</hi> to supply <hi>themselves.</hi> Whose lewd example was quickly followed by others lewdly given. For <hi>Mingo</hi> but turning to the wall,<note place="margin">Borrow<g ref="char:EOLhyphen"/>ers of <hi>Pre<g ref="char:EOLhyphen"/>terperf.</hi>
+                     </note> was rob'd of <hi>Minxi</hi> by <hi>Meio.</hi> And whilst
+<pb n="32" facs="tcp:41765:23"/>
+                     <hi>Sedeo</hi> sits him down to rest, <hi>Si<g ref="char:EOLhyphen"/>do</hi> stole <hi>Sedi</hi> from him. Nay many more such tricks were played. But, which is marve<g ref="char:EOLhyphen"/>lous, <hi>Furo</hi> was so <hi>mad</hi> in wick<g ref="char:EOLhyphen"/>ednesse, that though he saw me look upon him, yet by vi<g ref="char:EOLhyphen"/>olence he dares to take
+<q>Insanivi, a verbo ejusdem significati.</q>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>
+                     <hi>Ovid</hi> is but too true, of <hi>us,</hi> it seems,
+<q>—Non hospes ab hospite tutus, Non socer a genero, fratrum quo{que} gratia rara est.</q> But let us have your observa<g ref="char:EOLhyphen"/>tion of the <hi>Redundants,</hi> and dispatch it briefly.</p>
+               </sp>
+               <sp>
+                  <speaker>[Taed.]</speaker>
+                  <p>
+                     <note place="margin">3. <hi>Redundants</hi>
+                     </note>I shall Sir, <hi>They</hi> were my <hi>Lords</hi> own <hi>Life-guard:</hi> Who, when the enemy was ad<g ref="char:EOLhyphen"/>vancing to the <hi>Generals Post,</hi> not only by their valour did protect his <hi>person,</hi> but repuls'd
+<pb n="33" facs="tcp:41765:23"/> the enemy, and took rich boo<g ref="char:EOLhyphen"/>ty from him. Whereon the <hi>General</hi> judged them (as in<g ref="char:EOLhyphen"/>deed they were) worthy of his signal favour, which accord<g ref="char:EOLhyphen"/>ingly he vouchsafed to them. For whereas many of them were <hi>Moenial Servants,</hi> and some, <hi>Gentlemen</hi> of the <hi>Bed-Chamber</hi> unto <hi>Amo,</hi> as <hi>Coeno</hi> and <hi>Poto,</hi> (not without good reason too, for <hi>Sine cerere, &amp; Baccho Venus alget</hi>) he granted to them and their fellows (wherein he knew he should for the <hi>future</hi> make them <hi>best</hi> amends for their <hi>bad Time-perfectly-past;</hi>) I say, he gran<g ref="char:EOLhyphen"/>ted to them, constant, full double Commons. As, unto <hi>Coeno,</hi> besides his old dish <hi>Coena<g ref="char:EOLhyphen"/>vi, Coenatus sum.</hi> So to <hi>Poto,</hi> over and above adry <hi>Potavi, Potatus sum:</hi> till they come
+<pb n="34" facs="tcp:41765:24"/> to (that which follows next) <hi>Titubo, Titubavi, vel Tituba<g ref="char:EOLhyphen"/>tus.</hi>
+                  </p>
+                  <p>Others of them besides their own <hi>short Coat,</hi> were now made free of the <hi>long Robe,</hi> which you must know, is no <hi>small honour</hi> to a <hi>Souldier,</hi> though a <hi>greater pleasure</hi> to <hi>Ignoramus,</hi>
+                     <note place="margin">2. In <hi>Conju<g ref="char:EOLhyphen"/>gation.</hi>
+                     </note> who henceforth need not fear the quaintity in pronouncing them. But thus they are made capable <hi>Conju<g ref="char:EOLhyphen"/>gio frui</hi> of other words in the third or fourth <hi>Conjugation</hi> either. As <hi>Morior, moreris,</hi> or <hi>moriris.</hi> So <hi>Potior, Orior,</hi> and the rest. Though the two last may trouble <hi>Dulman in<g ref="char:EOLhyphen"/>finitely</hi> about the <hi>Infinitive</hi> Mood: which is only of the <hi>fourth.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>Is there any yet re<g ref="char:EOLhyphen"/>maining worthy of our fur<g ref="char:EOLhyphen"/>ther knowledge?</p>
+               </sp>
+               <sp>
+                  <pb n="35" facs="tcp:41765:24"/>
+                  <speaker>[Taed.]</speaker>
+                  <p>Nothing that comes to mind.<note place="margin">3. <hi>Regulars.</hi>
+                     </note> For the Night came on so fast, that the <hi>Regular Re<g ref="char:EOLhyphen"/>giment</hi> could not engage; and the <hi>Particles</hi> were contemned by the Enemy.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>So then, although there be sad <hi>Shipwrack</hi> made, 'tis somwhat better yet than <hi>Tabula post naufragium.</hi> Pray, <hi>Lilie,</hi> gratifie the Messengers for their faithfulness, and let them be discharged.</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>As were the former Messengers, so shall you, be honoured with a <hi>double Title.</hi> And therefore, by the Autho<g ref="char:EOLhyphen"/>rity vested in Us,
+<q>
+                        <l>Immotum mancat: Taedet quod taeduit, &amp; dat</l>
+                        <l>
+                           <gap reason="illegible" resp="#keyers" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>ortaesum: adde Pudet faciens puduit, puditum{que}</l>
+                        <l>At{que} Piget, tibi quod format piguit, pig itum{que}</l>
+                     </q>
+                  </p>
+               </sp>
+               <sp>
+                  <pb n="36" facs="tcp:41765:25"/>
+                  <speaker>[Prisc.]</speaker>
+                  <p>Let them now be gone; unless you think it best to cite the <hi>Generals</hi> hither first.</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>The best expedient doubtless.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>Then <hi>Pudet</hi> take our <hi>Herauld</hi> with you, and in <hi>our Names</hi> command both <hi>Amo</hi> and <hi>Poeta</hi> immediately to make their personal appearance be<g ref="char:EOLhyphen"/>fore <hi>Ʋs</hi> here.</p>
+               </sp>
+               <sp>
+                  <speaker>[Pud.]</speaker>
+                  <p>
+                     <note place="margin">Exeunt Taed. Pud. Pig.</note>It shall be done, Sir.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>A <hi>difficult</hi> task it is, to repair the several losses, and to restore to every one his own.</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>Indeed <hi>impossible.</hi> And suppose 'twere <hi>feasible,</hi> I think it not <hi>adviseable:</hi> For I take it as a ruled Case, that <hi>Sufferings for past miscarria<g ref="char:EOLhyphen"/>ges, are effectual means to pre<g ref="char:EOLhyphen"/>vent the like for future.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>I approve your
+<pb n="37" facs="tcp:41765:25"/> judgment: And it shall suffice, only to curb the insolency of those <hi>presumptuous Lords,</hi> and stop the evils further growth.</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil]</speaker>
+                  <p>I concur with you therein.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>Then <hi>Mr. Secre<g ref="char:EOLhyphen"/>tary</hi> draw up our sense, that it may be published.</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>But loe, they come, Sir.</p>
+               </sp>
+            </div>
+            <div type="part">
+               <stage>
+                  <label type="milestone">
+                     <seg type="milestoneunit">S. </seg>4</label>
+                  <hi>Enter,</hi> Poeta, <hi>and</hi> Amo <hi>with the</hi> Mes<g ref="char:EOLhyphen"/>senger, Herauld <hi>&amp; his</hi> Man.</stage>
+               <sp>
+                  <speaker>PRisc.]</speaker>
+                  <p>
+                     <hi>Poeta,</hi> what fury seized on thee, to expose the <hi>publick Interest</hi> of all <hi>Grammar</hi> to such dreadful hazards?</p>
+               </sp>
+               <sp>
+                  <speaker>[Poeta]</speaker>
+                  <p>Most Noble Judges, I neither can <hi>excuse,</hi> nor will <hi>extenuate</hi> my hainous crime: but prostrate <hi>my self</hi> and <hi>mine
+<pb n="38" facs="tcp:41765:26"/> affairs,</hi> most humbly at your feet.</p>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>
+                     <hi>Amo,</hi> what madness drave thee on an Enterprize so contrary to thy <hi>Genius,</hi> who art wont to <hi>love,</hi> not <hi>hate,</hi> and so destructive to the Common Interest, wheresoe're success should light?</p>
+               </sp>
+               <sp>
+                  <speaker>[Amo]</speaker>
+                  <p>
+                     <hi>Meer Guilt</hi> doth make me speechless. I submit me wholly to your censure.</p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>You both deserve the <hi>highest punishment,</hi> in just proportion to your <hi>foulest guilt.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Poeta.]</speaker>
+                  <p>Most justly, Sir<gap reason="illegible" resp="#keyers" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. Our <hi>rashness, folly, madness,</hi> is so past excuse. Truth, Sirs, my <hi>vein</hi> lies only now, <hi>Palino<g ref="char:EOLhyphen"/>diam canere.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Amo]</speaker>
+                  <p>For my part, Sirs, I was never less in the <hi>Impera<g ref="char:EOLhyphen"/>tive,</hi> and never more in the
+<pb n="39" facs="tcp:41765:26"/>
+                     <hi>Optative</hi> Mood, than now. <hi>Ʋtinam amâssem semper, odis<g ref="char:EOLhyphen"/>sem nunquam.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Prisc.]</speaker>
+                  <p>But, <hi>Serò sapiunt Phryges.</hi> To prevent the like Extravagancies in time to come, <hi>It is decreed,</hi>
+                     <note place="margin">The Sen<g ref="char:EOLhyphen"/>tence on the Gene<g ref="char:EOLhyphen"/>rals.</note>
+                     <hi>and our Sentence is, That neither of you shall be ever capable for the fu<g ref="char:EOLhyphen"/>ture, of subsisting in Oration by himself; but by sweet concord both together to compleat the sense, and adorn discourse.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Amo]</speaker>
+                  <p>I shall embrace the Sentence, Sirs, with all my heart. <hi>Vos{que} &amp; illum nec non omnes</hi> Amo <hi>amabit in aeternum.</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Poeta]</speaker>
+                  <l>
+                     <hi>And Sirs, If e're</hi> Poeta <hi>start from thence,</hi>
+                  </l>
+                  <l>
+                     <hi>Let's Verses hobble with<g ref="char:EOLhyphen"/>out wit, or sense.</hi>
+                  </l>
+               </sp>
+               <sp>
+                  <speaker>[Lil.]</speaker>
+                  <p>Since Peace is hap<g ref="char:EOLhyphen"/>pily now concluded in the <hi>Common-wealth of Grammar,</hi>
+                     <pb n="40" facs="tcp:41765:27"/> I think it most convenient, <hi>Pri<g ref="char:EOLhyphen"/>scian,</hi> if you concurr therein, that <hi>Proclamation</hi> should be instantly made thereof; to the end all persons concern'd in it, may have timely no<g ref="char:EOLhyphen"/>tice of the same.</p>
+               </sp>
+               <sp>
+                  <speaker>[Pris.]</speaker>
+                  <p>I meant no less, good <hi>Lilie. Mr. Secretary,</hi> deliver our sense unto the <hi>He<g ref="char:EOLhyphen"/>rauld,</hi> that he may proclaim it presently.</p>
+               </sp>
+               <sp>
+                  <speaker>[A-Secretis]</speaker>
+                  <p>It is dispatched, Sir. <hi>Mr. Herauld,</hi> take it.</p>
+               </sp>
+            </div>
+            <div type="part">
+               <head>
+                  <label type="milestone">
+                     <seg type="milestoneunit">S. </seg>5</label>
+                  <hi>Fecialis, Praeco,</hi> E Loco editiori.</head>
+               <sp>
+                  <speaker>FEcial.]</speaker>
+                  <p>Praeco, <hi>make an</hi> Oiez.</p>
+               </sp>
+               <sp>
+                  <speaker>[Praeco]</speaker>
+                  <p>Oiez, Oiez, Oiez.</p>
+               </sp>
+               <sp>
+                  <speaker>[Fec.]</speaker>
+                  <p>
+                     <hi>Verba preunte,</hi>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>[Praec.]</speaker>
+                  <p>
+                     <hi>Sic clamat.</hi>
+                  </p>
+                  <p>Whereas upon the late unhap<g ref="char:EOLhyphen"/>py differences, much damage hath been done in <hi>Recte-lo<g ref="char:EOLhyphen"/>quendi-Provincia,</hi>
+                     <pb n="41" facs="tcp:41765:27"/> partly by mutual violences from within it self, but <hi>chief<g ref="char:EOLhyphen"/>ly</hi> from the rude incursions of its pro<g ref="char:EOLhyphen"/>fessed enemies, <hi>Barbarismus, Soloecis<g ref="char:EOLhyphen"/>mus,</hi> and their Complices; which evils are now prevented for the time to come, by an everlasting League of Amity, fully concluded betwixt the dissenting Parties.</p>
+                  <p>
+                     <hi>Be it declared</hi> therefore in the first place, That the said <hi>Peace</hi> is now com<g ref="char:EOLhyphen"/>pleatly ratified, and all hostilities ut<g ref="char:EOLhyphen"/>terly ceased, never more to be remem<g ref="char:EOLhyphen"/>bred in the Land of <hi>Grammar. And,</hi>
+                  </p>
+                  <p>
+                     <hi>Be it declared</hi> further, <hi>&amp; Noverint universi per praesentes,</hi> That <hi>Ignora<g ref="char:EOLhyphen"/>mus,</hi> cum <hi>Haggis &amp; Hobgoblinis suis omnibus,</hi> who did infest the <hi>Pro<g ref="char:EOLhyphen"/>vince,</hi> is for ever, <hi>sine Baylo &amp; Main<g ref="char:EOLhyphen"/>prizo,</hi> and without a <hi>Quare impedit,</hi> banished thence; and if returning, to be pursued <hi>per Hutesium &amp; Clameum,</hi> with an <hi>Habeas Corpus,</hi> for the appre<g ref="char:EOLhyphen"/>hending of him; that he may he puni<g ref="char:EOLhyphen"/>shed
+<pb n="42" facs="tcp:41765:28"/>
+                     <hi>a parte post,</hi> as one that maketh <hi>Routam &amp; Riotam contra pacem &amp; Statutum.</hi> And,</p>
+                  <p>
+                     <hi>Be it declared</hi> lastly, That for the ends now mentioned, A <hi>Book of Sta<g ref="char:EOLhyphen"/>tutes, Anglicè,</hi> the <hi>Latine Grammar,</hi> containing Lawes and Precepts, for due ordering the affairs of the <hi>whole Com<g ref="char:EOLhyphen"/>mon-wealth,</hi> and of <hi>every particular Member</hi> thereof, is published by <hi>Autho<g ref="char:EOLhyphen"/>rity.</hi> Which said <hi>Statute-Book</hi> all <hi>Officers, Ministers,</hi> and <hi>Persons</hi> what<g ref="char:EOLhyphen"/>soever, but <hi>ESPECIALLY THE KNIGHTS OF THE MOST NO<g ref="char:EOLhyphen"/>BLE ORDER OF THE</hi> FERƲLA, are desired, and required to put in Ex<g ref="char:EOLhyphen"/>ecution accordingly.</p>
+               </sp>
+               <q>
+                  <p>
+                     <hi>VIVAT REX.</hi>
+                  </p>
+                  <p>Floreat Respublica Grammaticalis.</p>
+                  <p>
+                     <hi>Vos Valete.</hi>
+                  </p>
+               </q>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>TItle, r. [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>] P. 12. l. 11. Marg. r. [5. <hi>Tetraptotes, and Pentapto<gap reason="illegible" resp="#keyers" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es.</hi>] P. 22. l. 3. r. <hi>[Eldest].</hi> P. 30. Marg. 1. <hi>[Ap. Vos.]</hi> P. 34. l. 23. r. <hi>[any thing.], &amp;c.</hi>
+            </p>
+            <pb facs="tcp:41765:28"/>
+         </div>
+      </back>
+   </text>
+</TEI>
